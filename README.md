@@ -76,11 +76,21 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/scikit-learn/scikit-learn
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
+2. Gráfico selecionado: LOC of functions and classes (mean)
   
-3. Explicação: <EXPLICACAO_AQUI>
+3. Explicação:
+- Ao longo do tempo, as linhas de código, em média, de funções e classes se manteve ao redor do mesmo valor,
+- mostrando uma constância e padrão de código estabelecido dentro do time de desenvolvimento.
+- As curvas parecem de acordo com boas práticas, visto que evitam objetos com mais de 140 linhas de código.
+- Além disso, o número de linhas se adapta a características da linguagem, que usualmente possui mais funções
+- do que classes, e, quando tem classes, essas são grandes por definirem funções internas.
+- Analisando alguns arquivos do código fonte, notou-se que de fato as classes são grandes por possuírem
+- grande número de funções, e, além disso, várias linhas de comentários documentando seu funcionamento.
+- Por fim, o código não parece necessitar de imediato de refatorações como por violar o príncipio de
+- responsabilidade única. 
+  
 
 
 
